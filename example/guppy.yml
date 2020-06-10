@@ -1,0 +1,10 @@
+version: 2
+stage: development
+name: service
+parameters:
+    - path: /svc/dev/general/TIME_ZONE
+      value: Asia/Jakarta
+      isEncrypt: true
+    - path: /svc/dev/general/USER
+      value: iank
+      isEncrypt: false
